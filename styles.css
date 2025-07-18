@@ -52,4 +52,75 @@ h1 {
   padding: 20px;
   border-radius: 10px;
   margin-bottom: 30px;
+  border-bottom: 1px solid #ddd;
+}
+
+.recipe-preparation li {
+  list-style: none;
+  padding: 10px;
+  font-family: serif;
+  font-weight: 400;
+}
+
+.recipe-preparation ul {
+  margin-bottom: 8px;
+  color: #666;
+}
+
+.recipe-preparation strong {
+  color: #333;
+}
+
+h2 {
+  color: #8b4513;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  /* Border-top and padding top gives you a thin divider between sections. */
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+}
+
+ul,
+ol {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+  color: #555;
+}
+
+ol li {
+  margin-bottom: 15px;
+}
+
+.nutrition-note {
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+}
+
+.nutrition-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.nutrition-table th,
+.nutrition-table td {
+  text-align: left;
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+.nutrition-table th {
+  color: #666;
+  font-weight: normal;
+}
+
+.nutrition-table td {
+  color: #8b4513;
+  font-weight: bold;
 }
