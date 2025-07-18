@@ -1,17 +1,55 @@
 body {
   background-color: hsl(30, 18%, 87%);
+  font-family: "Georgia", serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f2f0;
+  color: #333;
 }
-
+/* Added img as a property. Img did not fit well. Ended up using background-size no repeat and background size to 100%. */
 .image-omelette {
   width: 100%;
   height: 300px;
-  /* background: linear-gradient(135deg, #f4e4a6 0%, #d4b896 100%); */
+  background: linear-gradient(100deg, #f4e4a6 0%, #d4b896 100%);
+  background-image: url(assets/images/image-omelette.jpeg);
   border-radius: 15px;
   margin-bottom: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
-  /* color: #8b6914; */
+  color: #8b6914;
   font-size: 18px;
   font-weight: bold;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.recipe-container {
+  background: white;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-size: 100%;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #2c2c2c;
+  margin-bottom: 20px;
+  font-weight: normal;
+}
+
+.description {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.recipe-preparation {
+  background-color: #fdf5f5;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
 }
