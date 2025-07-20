@@ -1,3 +1,8 @@
+/* Need to add media queries to be responsive
+Each screen size has its own specific CSS media query properties
+
+*/
+
 body {
   background-color: hsl(30, 18%, 87%);
   font-family: "Georgia", serif;
@@ -123,4 +128,23 @@ ol li {
 .nutrition-table td {
   color: #8b4513;
   font-weight: bold;
+}
+
+.attribution {
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    line-height: 1.5;
+  }
+
+  /* Stack table content vertically on very small screens */
+  .nutrition-table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
 }
