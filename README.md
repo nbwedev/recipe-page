@@ -7,6 +7,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
+  - Live preview (https://github.com/nbwedev/recipe-page/settings/pages)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
